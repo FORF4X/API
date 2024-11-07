@@ -109,5 +109,22 @@ namespace API.Controllers
 
             return Ok(new { token });
         }
+        
+        [HttpGet("get-doctors")]
+        public async Task<IActionResult> GetDoctors()
+        {
+            var doctors = await _context.Doctors.Include(d => d.User) 
+                .ToListAsync();
+
+            var doctorList = doctors.Select(d => new 
+            {
+                FirstName = d.User.FirstName,
+                LastName = d.User.LastName,
+                Photo = d.Photo != null ? Convert.ToBase64String(d.Photo) : null,
+                CV = d.CV != null ? Convert.ToBase64String(d.CV) : null
+            }).ToList();
+
+            return Ok(doctorList);
+        }
     }
 }
