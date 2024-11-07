@@ -4,30 +4,82 @@
     <projectFile profileName="http">API.csproj</projectFile>
     <projectFile profileName="https">API.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="297b3bb3-6d75-43e4-93d7-73b218b031ac" name="Changes" comment="" />
+    <list default="true" id="297b3bb3-6d75-43e4-93d7-73b218b031ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/Migrations/20241105144953_UpdateUserSchema.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Migrations/20241105144953_UpdateUserSchema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Migrations/20241105145808_UpdateUserSchemaVol2.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Migrations/20241105145808_UpdateUserSchemaVol2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28ac168384234e99ae90aae3d4dab1a22b6a0/5f/11250a12/UserManager`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6867fadb7dba4e919420770bdf5eecca1a908/26/4cf883d0/IdentityUserContext`5.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ac2a88a1b8c442bf847475a5a257846a5a00/9c/aeef44bc/BCrypt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a1ef06c95844039744025174e3cca0b108/a0/1aa68221/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a1ef06c95844039744025174e3cca0b108/fd/74e1c6c2/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2oGVOFPDvdtKGx8xcWRMn1TPQ2s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pathVariables",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/davitasatiani/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/davitasatiani/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/davitasatiani/Library/Application Support/Symbols/src&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: http">
     <configuration name="API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API.csproj" />
@@ -70,6 +122,13 @@
       <updated>1726416537725</updated>
       <workItem from="1726416538748" duration="419000" />
       <workItem from="1730495867935" duration="2000" />
+      <workItem from="1730495955835" duration="5000" />
+      <workItem from="1730531489307" duration="19717000" />
+      <workItem from="1730715713253" duration="3139000" />
+      <workItem from="1730790962718" duration="2474000" />
+      <workItem from="1730808758893" duration="19334000" />
+      <workItem from="1730889406632" duration="6920000" />
+      <workItem from="1730971910214" duration="5769000" />
     </task>
     <servers />
   </component>
