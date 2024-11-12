@@ -1,4 +1,3 @@
-using System.Text;
 using API.Data;
 using API.Entities;
 using API.Models;
@@ -7,6 +6,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,16 +18,6 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<DataContext>()
     .AddDefaultTokenProviders();
-
-builder.Services.AddIdentityCore<User>(options =>
-    {
-        options.Password.RequireDigit = false;
-        options.Password.RequiredLength = 6;
-        options.Password.RequireNonAlphanumeric = false;
-        options.Password.RequireUppercase = false;
-    })
-    .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<DataContext>();
 
 // Retrieve Jwt settings from appsettings.json
 var jwtSettingsSection = builder.Configuration.GetSection("Jwt");
@@ -50,12 +40,12 @@ builder.Services.AddAuthentication(options =>
             ValidateIssuerSigningKey = true,
             ValidIssuer = jwtSettings.Issuer,
             ValidAudience = jwtSettings.Audience,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
+            RoleClaimType = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role"
         };
     });
 
 builder.Services.AddScoped<ITokenService, TokenService>();
-
 builder.Services.AddScoped<IEmailService, EmailService>();
 
 builder.Services.AddControllers();
@@ -76,7 +66,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseRouting();
-app.UseAuthentication();
+app.UseAuthentication();  // Make sure this is before UseAuthorization
 app.UseAuthorization();
 app.MapControllers();
 

@@ -4,6 +4,7 @@ using API.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
@@ -106,10 +107,17 @@ namespace API.Controllers
                 return Unauthorized("Invalid email or password.");
 
             var token = await _tokenService.GenerateToken(user);
+            
+            var claims = User.Claims;
+            foreach (var claim in claims)
+            {
+                Console.WriteLine($"Claim Type: {claim.Type}, Claim Value: {claim.Value}");
+            }
 
             return Ok(new { token });
         }
         
+        [Authorize(Roles = "Doctor")]
         [HttpGet("get-doctors")]
         public async Task<IActionResult> GetDoctors()
         {
@@ -125,6 +133,34 @@ namespace API.Controllers
             }).ToList();
 
             return Ok(doctorList);
+        }
+        
+        [Authorize(Roles = "User")]
+        [HttpGet("get-non-doctor-users")]
+        public async Task<IActionResult> GetNonDoctorUsers()
+        {
+            var allUsers = await _userManager.Users.ToListAsync();
+    
+            var nonDoctorUsers = new List<User>();
+
+            foreach (var user in allUsers)
+            {
+                if (!await _userManager.IsInRoleAsync(user, "Doctor"))
+                {
+                    nonDoctorUsers.Add(user);
+                }
+            }
+
+            var usersDto = nonDoctorUsers.Select(user => new 
+            {
+                user.Id,
+                user.UserName,
+                user.Email,
+                user.FirstName,
+                user.LastName
+            }).ToList();
+
+            return Ok(usersDto);
         }
     }
 }
