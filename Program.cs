@@ -48,6 +48,15 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontendApp",
+        policy => policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
 builder.Services.AddControllers();
 
 var app = builder.Build();
@@ -66,6 +75,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseRouting();
+
+// Enable CORS
+app.UseCors("AllowFrontendApp");
+
 app.UseAuthentication();  // Make sure this is before UseAuthorization
 app.UseAuthorization();
 app.MapControllers();

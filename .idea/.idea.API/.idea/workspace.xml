@@ -10,34 +10,63 @@
   <component name="ChangeListManager">
     <list default="true" id="297b3bb3-6d75-43e4-93d7-73b218b031ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Doctor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Doctor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TokenService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/ jwt.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/core/ jwt.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/login/login.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/register/register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/register/register.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/register/register.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/register/register.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/register/register.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/auth/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/auth/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/doctor/doctor-list/doctor-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/doctor/doctor-list/doctor-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/doctor/doctor-list/doctor-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/doctor/doctor-list/doctor-list.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/doctor/doctor-list/doctor-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/doctor/doctor-list/doctor-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/doctor/doctor-list/doctor-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/doctor/doctor-list/doctor-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/doctor/doctor.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/features/doctor/doctor.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/footer/footer.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/header/header.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/layout/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/models/doctor.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/shared/models/doctor.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/core/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/app/services/doctor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/app/shared/services/doctor.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +82,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/Services/TokenService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/TokenService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bin/Debug/net8.0/API.deps.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bin/Debug/net8.0/API.runtimeconfig.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/API/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/davitasatiani/Desktop/ClinicManagementSystem/Client/angular.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Client/package-lock.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28ac168384234e99ae90aae3d4dab1a22b6a0/5f/11250a12/UserManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e6cfa91023d4528a577156f118914ae141b0/79/fc9bceed/JwtSecurityTokenHandler.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,6 +122,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Launch Settings Profile.API: https.executor&quot;: &quot;Debug&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -105,6 +132,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/davitasatiani/Desktop/ClinicManagementSystem/Client/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -167,8 +195,29 @@
       <workItem from="1730808758893" duration="19334000" />
       <workItem from="1730889406632" duration="6920000" />
       <workItem from="1730971910214" duration="9073000" />
-      <workItem from="1731402283256" duration="21666000" />
+      <workItem from="1731402283256" duration="21837000" />
+      <workItem from="1731452797567" duration="94000" />
+      <workItem from="1731522619830" duration="2618000" />
+      <workItem from="1731686696014" duration="860000" />
+      <workItem from="1731700135537" duration="1158000" />
+      <workItem from="1731851981393" duration="684000" />
+      <workItem from="1732183195437" duration="2303000" />
+      <workItem from="1732189173383" duration="620000" />
+      <workItem from="1732201599465" duration="1231000" />
+      <workItem from="1732279184100" duration="615000" />
+      <workItem from="1732553556649" duration="610000" />
+      <workItem from="1732567579218" duration="2192000" />
+      <workItem from="1732627900953" duration="1054000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Added: Role Based authorization and endpoint restriction&quot;">
+      <option name="closed" value="true" />
+      <created>1731452663723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731452663723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,5 +227,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="&quot;Added: Role Based authorization and endpoint restriction&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added: Role Based authorization and endpoint restriction&quot;" />
   </component>
 </project>

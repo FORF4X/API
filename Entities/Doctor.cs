@@ -17,5 +17,5 @@ public class Doctor
     public byte[]? CV { get; set; }
     
     public User User { get; set; }
-
+    
 }

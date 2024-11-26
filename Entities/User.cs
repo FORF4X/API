@@ -18,4 +18,8 @@ public class User : IdentityUser
     public string PrivateNumber { get; set; }
     
     public DateTime ActivationCodeExpiration { get; set; }
+    
+    public byte[]? Photo { get; set; }
+    
+    public Doctor DoctorProfile { get; set; }
 }

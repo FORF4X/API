@@ -99,6 +99,7 @@ namespace API.Controllers
         public async Task<IActionResult> Login(LoginDto loginDto)
         {
             var user = await _context.Users
+                .Include(u => u.DoctorProfile) // Include Doctor profile if it exists
                 .SingleOrDefaultAsync(u => u.Email == loginDto.Email);
 
             if (user == null) return Unauthorized("Invalid email or password.");
@@ -107,15 +108,29 @@ namespace API.Controllers
                 return Unauthorized("Invalid email or password.");
 
             var token = await _tokenService.GenerateToken(user);
-            
-            var claims = User.Claims;
-            foreach (var claim in claims)
-            {
-                Console.WriteLine($"Claim Type: {claim.Type}, Claim Value: {claim.Value}");
-            }
 
-            return Ok(new { token });
+            var roles = await _userManager.GetRolesAsync(user);
+            var role = roles.FirstOrDefault();
+
+            // Prepare profile information based on the role
+            var profile = new
+            {
+                user.FirstName,
+                user.LastName,
+                user.Email,
+                Photo = user.Photo != null ? Convert.ToBase64String(user.Photo) : null,
+                Role = role,
+                DoctorDetails = role == "Doctor" ? new 
+                {
+                    user.DoctorProfile.Category,
+                    Photo = user.DoctorProfile.Photo != null ? Convert.ToBase64String(user.DoctorProfile.Photo) : null,
+                    CV = user.DoctorProfile.CV != null ? Convert.ToBase64String(user.DoctorProfile.CV) : null
+                } : null
+            };
+
+            return Ok(new { token, profile });
         }
+
         
         [Authorize(Roles = "Doctor")]
         [HttpGet("get-doctors")]
