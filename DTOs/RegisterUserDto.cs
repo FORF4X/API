@@ -21,6 +21,8 @@ namespace API.DTOs
         [Required(ErrorMessage = "Private number is required.")]
         [RegularExpression(@"^\d{11}$", ErrorMessage = "Private number must be exactly 11 digits.")]
         public string PrivateNumber { get; set; }
+        
+        public IFormFile? Photo { get; set; }
 
         [Required(ErrorMessage = "Password is required.")]
         [RegularExpression(@"^(?=.*[0-9])(?=.*[\W_]).{8,}$", ErrorMessage = "Password must be at least 8 characters long, containing at least one symbol and one number.")]

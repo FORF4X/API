@@ -11,8 +11,7 @@ public class Doctor
     
     [Required] 
     public string Category { get; set; }
-
-    public byte[]? Photo { get; set; }
+    
     
     public byte[]? CV { get; set; }
     

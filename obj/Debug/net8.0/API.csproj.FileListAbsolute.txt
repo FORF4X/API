@@ -122,3 +122,7 @@
 /Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
 /Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/MailKit.dll
 /Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/MimeKit.dll
+/Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/davitasatiani/Desktop/ClinicManagementSystem/API/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
